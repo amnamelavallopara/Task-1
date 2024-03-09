@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="styles.css">
+    <title>Navigation Bar</title>
+</head>
+<body>
+        <div class="navbar" id="navbar">
+            <div id="companyInfo">
+                <span id="companyName">On Line eXchange</span>
+                &nbsp;&nbsp;
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="logo" id="logo">
+                <img src="logo.png" alt="Company Logo">
+            </div>
+        </div>
+        
+        <ul class="nav-options hidden" id="navOptions" >
+            <br>
+            <li>
+                <span class="material-symbols-outlined">home</span> &nbsp; &nbsp;
+                <a href="https://www.olx.in/en-in">Home</a>
+            </li>
+            <li class="dropdown" id="dropdown">
+                <span class="material-symbols-outlined">autorenew</span> &nbsp; &nbsp;
+                <a href="#">Exchange</a>
+                <ul class="dropdown-content">
+                    <li>&nbsp;&nbsp;<a href="https://www.olx.in/en-in/mobile-phones_c1453/q-exchange">Present Exchange</a></li>
+                    <li>&nbsp;&nbsp;<a href="https://www.olx.in/en-in/mobile-phones_c1453/q-future-exchange?isSearchCall=false">Future Exchange</a></li>
+                </ul>
+            </li>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li><span class="material-symbols-outlined">logout</span> &nbsp; &nbsp;
+                <button onclick="myFunction()">Logout</button>
+
+    <script>
+    function myFunction() {
+        alert("you are logged out");
+    }
+    </script>
+            <!-- <a href="">logout</a></li> -->
+        </ul>        
+    <script src="script.js"></script>
+</body>
+</html>
